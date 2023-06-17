@@ -21,5 +21,7 @@ int main(void)
 	putchar(uppercase);
 	uppercase += 1;
 	}
+	putchar('\n');
 	return (0);
 }
+OA
