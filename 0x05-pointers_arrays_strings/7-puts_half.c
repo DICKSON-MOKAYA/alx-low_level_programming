@@ -4,7 +4,7 @@
  *@str: The string to print
  *Return: void
  */
-void puts_half (char *str)
+void puts_half(char *str)
 {
 
 	int j = 0;
@@ -26,7 +26,7 @@ void puts_half (char *str)
 
 	for (; k < j; k++)
 	{
-	putchar(str[k]);
-	_putchar('\n');
+	_putchar(str[k]);
 	}
+	_putchar('\n');
 }
