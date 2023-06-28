@@ -1,11 +1,11 @@
-#include "main.h" 
+#include "main.h"
 /**
- * print_last_digit - Prints the last di it of a numb. 
- * @n: The number to be treated
- * Return: Value of the last digit of member 
+ *print_last_digit - Prints the last digit of a numb.
+ *@n: The number to be treated
+ *Return: Value of the last digit of member
  */
 
-int print_last_digit(int n) 
+int print_last_digit(int n)
 {
 	int last;
 
