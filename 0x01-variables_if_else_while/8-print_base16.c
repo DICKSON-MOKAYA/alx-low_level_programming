@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single digit numbers only
- *
- * Return: Always 0 (success)
+ *main - a fuction to print integers between 0 and 9
+ *and letters between a to f.
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = '0';
-	while (i <= '9')
-		putchar(i);
-		if (i != '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
-			i++;
+	int i;
+
+	for (i = 48; i < 58; i++)
+	putchar(i);
+	for (i = 97; i < 103; i++)
+	putchar(i);
 	putchar('\n');
-        return (0)
+	return (0);
+}
